@@ -1,25 +1,23 @@
-<img src="URL des Logos" alt="Deine Einführung hier" width="300"/>
+![Aufgabe: Styling des timetables](timetable.png)
+# Einführung
+Aufgabe: Styling des timetables
 
----
-# Aufgabe
-Deine Einführung hier
-* 100 Punkte
-* Zeitrahmen in Minuten
+maximale Punktzahl: 55
 
----
-### Spezifikationstitel hier (100 Punkte)
-#### Testname hier
+Zeitfenster: 45 Minuten (Viel Erfolg!)
 
-##### Unteraufgaben
-* Hier 
-##### Unteraufgaben
-* die
-##### Unteraufgaben
-* Unteraufgaben
-###### Code-Beispiel:
-* `Hier ein Code Beispiel`
-###### Hilfe
-* [Spickzettel](Hier eine URL für die Hilfestellung) 
+# Styling the Timetable with CSS (15 Punkte)
+## Style the Timetable with CSS. Add a stylesheet with the timetable.css and a a link in the html file to it
 
+# Change Background Color to red (rgb(255,0,0)) (10 Punkte)
+## Change Background Color
 
----
+# Adjust Text Color to green (rgb(0,128,0)) (10 Punkte)
+## Adjust Text Color
+
+# Add a (solid) Border (10 Punkte)
+## Add a Border
+
+# Center Text Alignment (10 Punkte)
+## Adjust Text Alignment
+
