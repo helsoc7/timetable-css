@@ -1,75 +1,88 @@
 {
-    "repo": "helsoc7/timetae-css",
-    "introduction": "Aufgabe: Styling des timetables",
-    "logo_url": "timetable.png",
-    "timeframe": "45 Minuten (Viel Erfolg!)",
-    "tests": [
-      {
-        "specs": {
-          "title": "Styling the Timetable with CSS",
-          "list": ["Style the Timetable with CSS.", "Add a stylesheet with the name timetable.css", "add a link in the html file to the stylesheet"]
-        },
-        "name": "Style the Timetable with CSS. Add a stylesheet with the name timetable.css and a a link in the html file to it",
-        "feedback": "Please add CSS styles to make your timetable visually appealing.",
-        "urls": ["https://www.w3schools.com/css/css_howto.asp"],
-        "file": "timetable.css",
-        "javascript": "(function() { return document.querySelector('link[href=\"timetable.css\"]') !== null ? 'true' : 'false'; })()",
-        "output": "true",
-        "comparison": "exact",
-        "points": 20
+  "repo": "helsoc7/timetable-css",
+  "introduction": "Aufgabe: Styling des timetables",
+  "logo_url": "timetable.png",
+  "timeframe": "45 Minuten (Viel Erfolg!)",
+  "tests": [
+    {
+      "specs": {
+        "title": "Styling the Timetable with CSS",
+        "list": [
+          "Style the Timetable with CSS.",
+          "Add a stylesheet with the name timetable.css",
+          "add a link in the html file to the stylesheet"
+        ]
       },
-      {
-        "specs": {
-          "title": "Change Background Color to light orange (rgb(191, 149, 120))"
-        },
-        "name": "Change Background Color",
-        "feedback": "Change the background color of the table to a color of your choice.",
-        "urls": ["https://www.w3schools.com/cssref/pr_background-color.php"],
-        "file": "timetable.css",
-        "javascript": "(function() { var table = document.querySelector('table'); var bgColor = window.getComputedStyle(table).getPropertyValue('background-color'); return bgColor === 'rgb(191, 149, 120)' ? 'true' : 'false'; })()",
-        "output": "true",
-        "comparison": "exact",
-        "points": 20
+      "name": "Style the Timetable with CSS. Add a stylesheet with the name timetable.css and a a link in the html file to it",
+      "feedback": "Please add CSS styles to make your timetable visually appealing.",
+      "urls": [
+        "https://www.w3schools.com/css/css_howto.asp"
+      ],
+      "file": "timetable.css",
+      "javascript": "(function() { return document.querySelector('link[href=\"timetable.css\"]') !== null ? 'true' : 'false'; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 20
+    },
+    {
+      "specs": {
+        "title": "Change Background Color to light orange (rgb(191, 149, 120))"
       },
-      {
-        "specs": {
-          "title": "Adjust Text Color to dark brown (48, 45, 42)"
-        },
-        "name": "Adjust Text Color",
-        "feedback": "Change the text color of the table rows or cells to a color of your choice.",
-        "urls": ["https://www.w3schools.com/css/css_text.asp"],
-        "file": "timetable.css",
-        "javascript": "(function() { var td = document.querySelector('table td'); var textColor = window.getComputedStyle(td).getPropertyValue('color'); return textColor === 'rgb(48, 45, 42)' ? 'true' : 'false'; })()",
-        "output": "true",
-        "comparison": "exact",
-        "points": 20
+      "name": "Change Background Color",
+      "feedback": "Change the background color of the table to a color of your choice.",
+      "urls": [
+        "https://www.w3schools.com/cssref/pr_background-color.php"
+      ],
+      "file": "timetable.css",
+      "javascript": "(function() { var table = document.querySelector('table'); var bgColor = window.getComputedStyle(table).getPropertyValue('background-color'); return bgColor === 'rgb(191, 149, 120)' ? 'true' : 'false'; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 20
+    },
+    {
+      "specs": {
+        "title": "Adjust Text Color to dark brown (48, 45, 42)"
       },
-      {
-        "specs": {
-          "title": "Add a (solid) Border"
-        },
-        "name": "Add a Border",
-        "feedback": "Add a border to the table or its elements to make it stand out.",
-        "urls": ["https://www.w3schools.com/cssref/pr_border.asp"],
-        "file": "timetable.css",
-        "javascript": "(function() { var table = document.querySelector('table'); var borderStyle = window.getComputedStyle(table).getPropertyValue('border-style'); return borderStyle === 'solid' ? 'true' : 'false'; })()",
-        "output": "true",
-        "comparison": "exact",
-        "points": 20
+      "name": "Adjust Text Color",
+      "feedback": "Change the text color of the table rows or cells to a color of your choice.",
+      "urls": [
+        "https://www.w3schools.com/css/css_text.asp"
+      ],
+      "file": "timetable.css",
+      "javascript": "(function() { var td = document.querySelector('table td'); var textColor = window.getComputedStyle(td).getPropertyValue('color'); return textColor === 'rgb(48, 45, 42)' ? 'true' : 'false'; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 20
+    },
+    {
+      "specs": {
+        "title": "Add a (solid) Border"
       },
-      {
-        "specs": {
-          "title": "Center Text Alignment"
-        },
-        "name": "Adjust Text Alignment",
-        "feedback": "Change the text alignment within the table cells, e.g., center or right-align it.",
-        "urls": ["https://www.w3schools.com/css/css_align.asp#:~:text=Center%20Align%20Text,This%20text%20is%20centered."],
-        "file": "timetable.css",
-        "javascript": "(function() { var td = document.querySelector('table td'); var textAlign = window.getComputedStyle(td).getPropertyValue('text-align'); return textAlign === 'center' ? 'true' : 'false'; })()",
-        "output": "true",
-        "comparison": "exact",
-        "points": 20
-      }
-    ]
-  }
-  
+      "name": "Add a Border",
+      "feedback": "Add a border to the table or its elements to make it stand out.",
+      "urls": [
+        "https://www.w3schools.com/cssref/pr_border.asp"
+      ],
+      "file": "timetable.css",
+      "javascript": "(function() { var table = document.querySelector('table'); var borderStyle = window.getComputedStyle(table).getPropertyValue('border-style'); return borderStyle === 'solid' ? 'true' : 'false'; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 20
+    },
+    {
+      "specs": {
+        "title": "Center Text Alignment"
+      },
+      "name": "Adjust Text Alignment",
+      "feedback": "Change the text alignment within the table cells, e.g., center or right-align it.",
+      "urls": [
+        "https://www.w3schools.com/css/css_align.asp#:~:text=Center%20Align%20Text,This%20text%20is%20centered."
+      ],
+      "file": "timetable.css",
+      "javascript": "(function() { var td = document.querySelector('table td'); var textAlign = window.getComputedStyle(td).getPropertyValue('text-align'); return textAlign === 'center' ? 'true' : 'false'; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 20
+    }
+  ]
+}
